@@ -1,0 +1,1127 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-500 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/poppins-v20-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-500.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-600 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/poppins-v20-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/poppins-v20-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/poppins-v20-latin-600.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+
+/* quicksand-regular - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/quicksand-v29-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v29-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/quicksand-v29-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/quicksand-v29-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/quicksand-v29-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/quicksand-v29-latin-regular.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+/* quicksand-500 - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/quicksand-v29-latin-500.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v29-latin-500.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/quicksand-v29-latin-500.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/quicksand-v29-latin-500.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/quicksand-v29-latin-500.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/quicksand-v29-latin-500.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+/* quicksand-600 - latin */
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/quicksand-v29-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/quicksand-v29-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/quicksand-v29-latin-600.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/quicksand-v29-latin-600.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/quicksand-v29-latin-600.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/quicksand-v29-latin-600.svg#Quicksand') format('svg');
+    /* Legacy iOS */
+}
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+}
+
+.navbar {
+    position: absolute;
+    width: 1440px;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 40px 40px;
+}
+
+.logo {
+    position: absolute;
+    width: 121px;
+    height: 48.53px;
+    left: 102px;
+    top: 16px;
+
+}
+
+.searcharea {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    position: absolute;
+    width: 494px;
+    height: 45px;
+    left: 262px;
+    top: 18px;
+    border: 1px solid #F3F3F3;
+    background: #F3F3F3;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.search-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px;
+    gap: 9px;
+
+    position: absolute;
+    width: 55px;
+    height: 45px;
+    left: 756px;
+    top: 18px;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.wishlist>img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 830px;
+    top: 25px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.wishlist-text {
+    position: absolute;
+    width: 47px;
+    height: 18px;
+    top: 37px;
+    left: 865px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2F294D;
+}
+
+.cart-img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 957px;
+    top: 25px;
+}
+
+.cart-text {
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    top: 30px;
+    left: 990px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #2F294D;
+}
+
+.my-cart {
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    top: 50px;
+    left: 990px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: #0064D2;
+}
+
+.customer-img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1075px;
+    top: 25px;
+
+    background: url(./../img/Ellipse2.png);
+}
+
+.dropdown {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 1120px;
+    top: 36px;
+
+    background-image: url(./../img/li_chevron-down.svg);
+}
+
+.browse-img {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 10px;
+}
+
+.browse-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    position: absolute;
+    width: 178px;
+    height: 40px;
+    left: 1160px;
+    top: 20px;
+    background: #0064D2;
+    border-radius: 8px;
+}
+
+.browse-btn {
+    position: absolute;
+    text-decoration: none;
+    width: 190px;
+    height: 18px;
+    left: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+.browse-button:hover {
+    opacity: 0.8;
+}
+
+.browse-button:active {
+    opacity: 0.5;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 108px;
+    top: 103px;
+    border-radius: 50%;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+}
+
+.back-button:active {
+    opacity: 0.5;
+}
+
+.back-text-1 {
+    position: absolute;
+    width: 555px;
+    height: 24px;
+    left: 167px;
+    top: 111px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.back-text-1>a, .back-text-2>a {
+    color: #0064D2;
+}
+
+.back-text-2 {
+    position: absolute;
+    width: 224px;
+    height: 24px;
+    left: 754px;
+    top: 111px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0064D2;
+}
+
+.section-line {
+    position: absolute;
+    width: 1440.5px;
+    height: 0px;
+    left: 0px;
+    top: 160px;
+    border: 0.5px solid rgba(173, 173, 173, 0.17);
+}
+
+.info-iphone {
+    position: absolute;
+    width: 1228px;
+    height: 701px;
+    left: 102px;
+    top: 103px;
+}
+
+.iphone-image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 536px;
+    height: 463px;
+    left: 102px;
+    top: 201px;
+    background: #E6F0FB;
+    border-radius: 24px;
+
+}
+
+.iphone-image {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    background: url(./../img/image\ 15\ \(3\).png);
+    mix-blend-mode: multiply;
+}
+
+.back-photo-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 102px;
+    top: 725px;
+    border-radius: 50%;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+}
+
+.image-rightside {
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    left: 159px;
+    top: 684px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.img-rightside {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    width: 125px;
+    height: 120px;
+    background: url(./../img/image18.png);
+    mix-blend-mode: multiply;
+}
+
+.image-camera-sys {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    left: 305px;
+    top: 684px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.img-cam-sys {
+    position: absolute;
+    width: 114px;
+    height: 26px;
+    background: url(./../img/camera_system__rp945vhdfsiu_large\ 1.png);
+}
+
+.image-camera {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 130px;
+    height: 120px;
+    left: 451px;
+    top: 684px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.img-cam {
+    position: absolute;
+    width: 96px;
+    height: 101px;
+    background: url(./../img/image\ 16.png);
+}
+
+.next-photo-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 600px;
+    top: 725px;
+    border-radius: 50%;
+    border: 1px solid #0064D2;
+    background: #0064D2;
+    transform: rotate(-180deg);
+}
+
+.back-photo-btn:hover, .next-photo-btn:hover {
+    opacity: 0.8;
+}
+
+.back-photo-btn:active, .next-photo-btn:active {
+    opacity: 0.5;
+}
+
+.iphone-name {
+    position: absolute;
+    width: 387px;
+    height: 54px;
+    left: 675px;
+    top: 207px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #2F294D;
+}
+
+.starlight-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 152px;
+    height: 40px;
+    left: 1070px;
+    top: 211px;
+    background: #E6F0FB;
+    border-radius: 11px;
+}
+
+.starlight-link {
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #0064D2;
+}
+
+.warranty-text {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 675px;
+    top: 256px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+    opacity: 0.5;
+}
+
+.stars {
+    position: absolute;
+    width: 194px;
+    height: 32px;
+    left: 675px;
+    top: 296px;
+}
+
+.star-ball {
+    position: absolute;
+    width: 26px;
+    height: 24px;
+    left: 155px;
+    top: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.reviews {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 870px;
+    top: 297.5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+    opacity: 0.5;
+}
+
+.iphone-price {
+    position: absolute;
+    width: 85px;
+    height: 66px;
+    left: 675px;
+    top: 336px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #2F294D;
+}
+
+.iphone-price>sup {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    opacity: 0.7;
+}
+
+.marks-text-1 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 403px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.marks-text-2 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 443px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.marks-text-3 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 483px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+
+}
+
+.marks-text-4 {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 717px;
+    top: 521px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F294D;
+}
+
+.mark1 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 403px;
+}
+
+.mark2 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 443px;
+}
+
+.mark3 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 483px;
+}
+
+.mark4 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 684px;
+    top: 521px;
+}
+
+.solded {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 687px;
+    top: 560px;
+}
+
+.solded-text {
+    position: absolute;
+    width: 498px;
+    height: 24px;
+    left: 140px;
+    top: 7px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0064D2;
+
+}
+
+.buy-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 226px;
+    height: 44px;
+    left: 679px;
+    top: 620px;
+    background: #0064D2;
+    border-radius: 10px;
+}
+
+.buy-now>a {
+    width: 83px;
+    height: 24px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.buy-now:hover {
+    opacity: 0.8;
+}
+
+.buy-now:active {
+    opacity: 0.5;
+}
+
+
+.add-to-cart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 226px;
+    height: 44px;
+    left: 921px;
+    top: 620px;
+    background: rgba(0, 100, 210, 0.1);
+    border-radius: 10px;
+}
+
+.add-to-cart>a {
+    text-decoration: none;
+    width: 93px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0064D2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.menu-navigation {
+    display: flex;
+    position: absolute;
+    width: 1444px;
+    height: 72px;
+    left: -2px;
+    top: 863px;
+    background: #E6F0FB;
+}
+
+.menu-bar-links {
+    list-style-type: none;
+}
+
+.menu-bar-links>a {
+    text-decoration: none;
+}
+
+.bar-link-about {
+    position: absolute;
+    width: 50px;
+    height: 24px;
+    left: 102px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+}
+
+.bar-link-shipping {
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 195px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+    opacity: 0.5;
+}
+
+.bar-link-reviews {
+    position: absolute;
+    width: 67px;
+    height: 24px;
+    left: 312px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+    opacity: 0.5;
+}
+
+.bar-link-returns {
+    position: absolute;
+    width: 64px;
+    height: 24px;
+    left: 423px;
+    top: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #1E1F4B;
+    opacity: 0.5;
+}
+
+.bar-border {
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    left: 114px;
+    top: 60px;
+    background: #3972FE;
+    border-radius: 30px;
+}
+
+.bar-border-2 {
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    left: 142px;
+    top: 60px;
+    background: #3972FE;
+    border-radius: 50%;
+}
+
+.about-left-side {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    width: 250px;
+    height: 258px;
+    left: 102px;
+    top: 975px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.about-left-side>img {
+    width: 214px;
+    height: 48px;
+}
+
+
+
+.features {
+    position: absolute;
+    width: 914.01px;
+    height: 231px;
+    left: 424.99px;
+    top: 989px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2F294D;
+}
+
+.about2-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 250px;
+    height: 258px;
+    left: 1089px;
+    top: 1293px;
+    background: #E6F0FB;
+    border-radius: 24px;
+}
+
+.about2-rs-img {
+    position: absolute;
+    width: 147.96px;
+    height: 200px;
+    background: url(./../img/image\ 19.png);
+    mix-blend-mode: multiply;
+}
+
+
+.features2 {
+    position: absolute;
+    width: 914.01px;
+    height: 231px;
+    left: 120px;
+    top: 1307px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2F294D;
+
+}
+
+.line-style {
+    position: absolute;
+    width: 1236.99px;
+    height: 0px;
+    left: 102px;
+    top: 1581px;
+
+    border: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+
+.smiliar-text {
+    position: absolute;
+    width: 304px;
+    height: 36px;
+    left: 102px;
+    top: 1616px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    
+    
+    letter-spacing: 0.02em;
+    
+    
+    
+    color: #1E1F4B;  
+}
+
+.charge-box {
+    position: absolute;
+width: 250px;
+height: 320px;
+left: 102px;
+top: 1683px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+border-radius: 27px;
+}
+
+.charge-img-box {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ position: absolute;
+    width: 210px;
+    height: 180px;
+    left: 20px;
+    top: 20px;
+    background: #E6F0FB;
+    border-radius: 10px;
+
+}
+
+.charge-img {
+    position: absolute;
+    width: 130px;
+    height: 134px;
+    background-image: url(./../img/image\ 19\ \(1\).png);
+    background-repeat: no-repeat;
+    
+}
+
+.item-name {
+    position: absolute;
+width: 200px;
+height: 24px;
+left: 20px;
+top: 220px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+letter-spacing: 0.02em;
+
+
+
+color: #2F294D;
+}
+
+.item-company {
+    position: absolute;
+width: 48px;
+height: 24px;
+left: 20px;
+top: 245px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+
+
+letter-spacing: 0.02em;
+
+
+
+color: #2F294D;
+
+opacity: 0.7;
+}
+
+.item-price {
+    position: absolute;
+width: 75px;
+height: 36px;
+left: 20px;
+top: 270px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+
+
+letter-spacing: 0.02em;
+
+
+
+color: #2F294D;
+}
+
+.item-star {
+    position: absolute;
+width: 32px;
+height: 32px;
+left: 170px;
+top: 275px;
+
+background-image: url(./../img/Star\ 1.svg);
+background-repeat: no-repeat;
+
+}
+
+.itemstar-ball {
+    position: absolute;
+width: 26px;
+height: 24px;
+left: 200px;
+top: 275px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+
+color: #2F294D;
+}
